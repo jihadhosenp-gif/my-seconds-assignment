@@ -273,8 +273,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    margin-right: 100px;
+    
 }
 .episode-card h3{
     font-size: 24px;
