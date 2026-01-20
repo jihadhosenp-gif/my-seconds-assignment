@@ -367,6 +367,12 @@
 
 
 @media screen and (max-width: 576px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+
+    }
     .bannerd{
         width: 100%;
     }
@@ -389,12 +395,12 @@
         cursor: pointer;
     }
   .header-section{
-    max-width: 574px;
-    width: 100%;
-    height: 500px;
-    background-size: 110% auto;
-    background-repeat: no-repeat;
-    background-position: center;
+        max-width: 574px;
+        width: 100%;
+        height: 500px;
+        background-size: 110% auto;
+        background-repeat: no-repeat;
+        background-position: center;
 
   }
   .header-image{
@@ -500,9 +506,23 @@
     .footer{
         width: 100%;
         height: auto;
+        background-size: 60%;
+        background-size: 40;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .footer h1 {
     font-size: 24px;
-    padding-top: 20px;
-}
+    }
+    .footer p {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 35px;
+        color: white;
+        background-color: transparent;
+    }
+
 }
