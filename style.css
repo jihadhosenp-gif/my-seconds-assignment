@@ -1,4 +1,6 @@
-
+*{
+    margin: 0px;
+}
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -226,7 +228,59 @@
 .features-section img{
     background-color: transparent;
 }
+.video-episodes{
+    padding: 200px ;
+   
+}
+.episodes-section>*{
+    background-color: #351165;
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid #230E3D;
+    
+}
+.video-episodes h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.episodes-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    gap: 10px;
+    margin-right: 100px;
+}
+.episode-card h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fafdfc;
+    background-color: transparent;
+}
+.episode-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #d1d5db;
+    background-color: transparent;
+}
 
+.episode-card img{
+    border-radius: 50%;
+    padding: 3px;
+    background-color: transparent;
+}
+.episode-card h5{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00FF88;
+    background-color: transparent;
+}
+   
 
 
 @media screen and (max-width: 576px) {
