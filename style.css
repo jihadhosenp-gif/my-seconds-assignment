@@ -46,6 +46,9 @@
     color: white;
     transition: color 0.3s ease;
 }
+.exclusive{
+    background-color: transparent;
+}
 .btn {
     background: linear-gradient(
         45deg,
